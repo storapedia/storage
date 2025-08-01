@@ -30,7 +30,7 @@ let conversationListeners = {};
 let lastKnownUnreadCount = 0;
 let hasInteracted = false;
 
-const notificationSound = new Audio('../assets/sounds/notification.wav'); 
+const notificationSound = new Audio('/admin/assets/sounds/notification.wav'); 
 
 const currencyFormatter = new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD', minimumFractionDigits: 2 });
 
