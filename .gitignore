@@ -1,0 +1,23 @@
+# Dependencies
+/node_modules
+
+# Environment variables
+.env
+/admin/js/config.js # Penting: File ini dibuat otomatis dan berisi API key
+
+# Auto-generated files (for Tailwind local setup)
+# Jika Anda ingin Netlify mengkompilasi CSS terakhir, jangan sertakan style.css di Git.
+# Jika Anda ingin mengontrol versi CSS akhir yang sudah dikompilasi di Git, hapus baris di bawah ini.
+# Umumnya untuk proyek frontend dengan Netlify, kita biarkan Netlify yang nge-build CSS-nya.
+/admin/css/style.css 
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS generated files
+.DS_Store
+.idea/
+.vscode/
